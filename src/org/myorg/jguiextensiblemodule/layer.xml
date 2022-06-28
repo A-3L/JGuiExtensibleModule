@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN" "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+
+<folder name="FormDesignerPalette">
+    <folder name="JGuiExtensible">
+        <attr name="displayName" bundlevalue="org.myorg.jguiextensiblemodule.Bundle#FormDesignerPalette/JGuiExtensible"/>
+            <file name="JGuiSimple.palette_item" url="JGuiSimple_paletteItem.xml"/>
+            <file name="JGuiTabbed.palette_item" url="JGuiTabbed_paletteItem.xml"/>
+            <file name="JGuiTree.palette_item" url="JGuiTree_paletteItem.xml"/>
+    </folder>
+</folder>
+  
+<folder name="org-netbeans-api-project-libraries">
+    <folder name="Libraries">
+        <file name="JGuiExtensible.xml" url="JGuiExtensible.xml"/>
+    </folder>
+</folder>
+
+</filesystem>
+

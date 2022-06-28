@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<palette_item version="1.0">
+  <component classname="jguiextensible.JGuiTree"/>
+  <description localizing-bundle="org.myorg.jguiextensiblemodule.Bundle"
+               display-name-key="NAME_jguiextensible-JGuiTree"
+               tooltip-key="HINT_jguiextensible-JGuiTree" />
+  <classpath>
+    <resource type="library" name="JGuiExtensible"/>
+  </classpath>
+</palette_item>
