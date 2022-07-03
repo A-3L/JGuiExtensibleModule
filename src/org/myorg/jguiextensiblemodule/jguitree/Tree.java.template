@@ -15,7 +15,7 @@ import jguiextensible.JGuiTree;
 public class ${name} extends JGuiTree {
 
     /**
-     * Creates new ${name}form JGuiTree
+     * Creates new ${name} form JGuiTree
      */
     public ${name}() {
         initComponents();

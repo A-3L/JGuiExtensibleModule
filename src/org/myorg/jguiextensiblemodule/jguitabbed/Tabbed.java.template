@@ -16,7 +16,7 @@ package ${package};
 public class ${name} extends jguiextensible.JGuiTabbed {
 
     /**
-     * Creates new ${name}form JGuiTabbed
+     * Creates new ${name} form JGuiTabbed
      */
     public ${name}() {
         initComponents();

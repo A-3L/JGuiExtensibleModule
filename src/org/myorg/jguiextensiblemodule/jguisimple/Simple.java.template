@@ -15,7 +15,7 @@ package ${package};
 public class ${name} extends jguiextensible.JGuiSimple {
 
     /**
-     * Creates new ${name}form JGuiSimple
+     * Creates new ${name} form JGuiSimple
      */
     public ${name}() {
         initComponents();
