@@ -1,18 +1,18 @@
-package org.myorg.jguimodule.tree;
+<#assign licenseFirst = "/*">
+<#assign licensePrefix = " * ">
+<#assign licenseLast = " */">
+<#include "${project.licensePath}">
 
+<#if package?? && package != "">
+package ${package};
 
-import jguiextensible.JGuiTree;
-
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/BeanForm.java to edit this template
- */
+</#if>
 
 /**
  *
  * @author ${user}
  */
-public class ${name} extends JGuiTree {
+public class ${name} extends jguiextensible.JGuiTree {
 
     /**
      * Creates new ${name} form JGuiTree
