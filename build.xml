@@ -6,20 +6,4 @@
 <project name="org.myorg.jguiextensiblemodule" default="netbeans" basedir=".">
     <description>Builds, tests, and runs the project org.myorg.jguiextensiblemodule.</description>
     <import file="nbproject/build-impl.xml"/>
-    
-<!--
-<target name="build-init" depends="harness.build-init">
-    <echo>Rebuilding JGuiExtensible JAR</echo>
-    <ant antfile="../JGuiExtensible/build.xml" target="jar" inheritall="false" inheritrefs="false"/>
-    <mkdir dir="release/libs"/>
-    <copy file="../JGuiExtensible/dist/JGuiExtensible.jar" todir="release/libs"/>
-</target>
-
-<target name="clean" depends="projectized-common.clean">
-    <echo>Cleaning and deleting copy of JGuiExtensible JAR</echo>
-    <ant antfile="../JGuiExtensible/build.xml" target="clean" inheritall="false" inheritrefs="false"/>
-    <delete file="${basedir}/release/libs/JGuiExtensible.jar"/>
-</target>
--->
-
 </project>
